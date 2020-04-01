@@ -1,0 +1,32 @@
+id: 0ff1c408cf934ac587dcbcd767b27375
+annotation_type: pagination
+revision: '00001'
+annotations:
+- id: 43a8ae8dca074bffaec7121f7843e934
+  span:
+    start: 0
+    end: 854
+  page_index: 1a
+  page_info: null
+  reference: I1CZ23380001
+- id: f4bae77667264cb58602514ba6574fa1
+  span:
+    start: 859
+    end: 862
+  page_index: 177a
+  page_info: null
+  reference: I1CZ23380353
+- id: cdcb5271b6a84b018cdb29d55f0a2d2d
+  span:
+    start: 867
+    end: 870
+  page_index: 177b
+  page_info: null
+  reference: I1CZ23380354
+- id: 59076920df194d6c89ea3d545e65edd5
+  span:
+    start: 875
+    end: 878
+  page_index: 246b
+  page_info: null
+  reference: I1CZ23380492
