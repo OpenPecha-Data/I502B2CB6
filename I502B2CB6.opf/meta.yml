@@ -1,39 +1,74 @@
 id: I502B2CB6
+legacy_id: P010795
+ocr_import_info:
+  bdrc_scan_id: W1CZ2327
+  source: bdrc
+  ocr_info:
+    timestamp: '2020-04-01T01:53:15'
+    imagesfolder: images
+  batch_id: batch001
+  software_id: vision
+  expected_default_language: bo
+  op_import_options: {}
+  op_import_version: 1.0.0
+default_language: bo
 source: https://library.bdrc.io
 source_file: null
 initial_creation_type: ocr
-imported: '2020-04-01T01:56:00+00:00'
-last_modified: '2022-06-08T17:34:57.770187+00:00'
-parser: https://github.com/OpenPecha-dev/openpecha-toolkit/blob/231bba39dd1ba393320de82d4d08a604aabe80fc/openpecha/formatters/google_orc.py
+imported: '2022-08-30T19:15:24.884702+00:00'
+last_modified: 2022-08-31 03:15:48.323982
+parser: https://github.com/OpenPecha/Toolkit/blob/7f57883d84bc10351527a49ee6ce970ace404e50/openpecha/formatters/google_ocr.py
 source_metadata:
-  id: bdr:W1CZ2327
-  title: རྫོགས་པ་ཆེན་པོ་མུ་ཏིག་ཕྲེང་རྒྱུད་གསལ་བྱེད
-  author: ''
+  id: http://purl.bdrc.io/resource/W1CZ2327
+  status: http://purl.bdrc.io/admindata/StatusReleased
   access: http://purl.bdrc.io/admindata/AccessOpen
-  restrictedInChina: false
-  base:
-    A234:
-      image_group_id: I1CZ2336
-      title: ''
-      total_pages: 550
-      order: 1
-      base_file: A234.txt
-    '2112':
-      image_group_id: I1CZ2337
-      title: ''
-      total_pages: 206
-      order: 2
-      base_file: 2112.txt
-    05EE:
-      image_group_id: I1CZ2338
-      title: ''
+  reproduction_of: http://purl.bdrc.io/resource/MW1CZ2327
+  copyright_status: http://purl.bdrc.io/resource/CopyrightPublicDomain
+  title: རྫོགས་པ་ཆེན་པོ་མུ་ཏིག་ཕྲེང་རྒྱུད་གསལ་བྱེད།
+  author: པཎ་ཆེན་དྲི་མེད་བཤེས་གཉེན།
+statistics:
+  ocr_word_mean_confidence_index: 0.9637952838239707
+  ocr_word_median_confidence_index: 0.9900000095367432
+quality: null
+bases:
+  I1CZ2338:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I1CZ2338
       total_pages: 492
-      order: 3
-      base_file: 05EE.txt
-statistics: {}
-quality: {}
+      volume_number: 3
+      volume_pages_bdrc_intro: 2
+    order: 3
+    base_file: I1CZ2338.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.9900000095367432
+      ocr_word_mean_confidence_index: 0.9637850549803159
+    legacy_id: v003
+  I1CZ2337:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I1CZ2337
+      total_pages: 206
+      volume_number: 2
+      volume_pages_bdrc_intro: 2
+    order: 2
+    base_file: I1CZ2337.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.9900000095367432
+      ocr_word_mean_confidence_index: 0.9637914776307712
+    legacy_id: v002
+  I1CZ2336:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I1CZ2336
+      total_pages: 550
+      volume_number: 1
+      volume_pages_bdrc_intro: 2
+    order: 1
+    base_file: I1CZ2336.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.9900000095367432
+      ocr_word_mean_confidence_index: 0.9638095318206719
+    legacy_id: v001
 copyright:
-  status: Unknown
-  notice: ''
-  info_url: null
-license: null
+  status: Public domain
+  notice: Public domain
+  info_url: https://creativecommons.org/publicdomain/mark/1.0/
+license: CC0
